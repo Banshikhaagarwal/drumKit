@@ -9,7 +9,7 @@ buttonAnimation(buttonInnerHtml);
 }
 document.addEventListener("keydown",function(event){
     makeSound(event.key);
-    buttonAnimation(buttonInnerHtml);
+    buttonAnimation(event.key);
 });
 function makeSound(key){
     switch(key) {
